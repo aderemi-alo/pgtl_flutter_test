@@ -1,0 +1,29 @@
+name: pgtl_flutter_test
+description: "PGTL Flutter Test - A secure and aesthetic login screen built with Flutter."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  get_it: ^8.0.3
+  go_router: ^14.2.7
+  shared_preferences: ^2.3.3
+  flutter_secure_storage: ^9.0.0
+  shimmer: ^3.0.0
+  http: ^1.2.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/products.json

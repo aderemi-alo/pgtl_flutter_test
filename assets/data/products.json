@@ -1,0 +1,851 @@
+[
+    {
+        "id": "1",
+        "name": "Wireless Noise Cancelling Headphones",
+        "description": "Premium wireless headphones with active noise cancellation technology for immersive audio experience.",
+        "price": 299.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+        "rating": 4.7,
+        "reviewCount": 1247,
+        "inStock": false,
+        "tags": [
+            "audio",
+            "wireless",
+            "noise-cancelling",
+            "premium"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Smart Fitness Watch",
+        "description": "Advanced smartwatch with heart rate monitoring, GPS tracking, and 7-day battery life.",
+        "price": 349.99,
+        "category": "Wearables",
+        "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 892,
+        "inStock": false,
+        "tags": [
+            "fitness",
+            "smartwatch",
+            "health",
+            "tracking"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Professional Espresso Machine",
+        "description": "Commercial-grade espresso machine with built-in grinder and steam wand for perfect coffee.",
+        "price": 599.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=400&fit=crop",
+        "rating": 4.8,
+        "reviewCount": 456,
+        "inStock": false,
+        "tags": [
+            "coffee",
+            "espresso",
+            "kitchen",
+            "professional"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "4K Ultra HD Smart TV",
+        "description": "65-inch 4K Ultra HD Smart TV with HDR technology and built-in streaming apps.",
+        "price": 899.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 2341,
+        "inStock": false,
+        "tags": [
+            "tv",
+            "4k",
+            "smart",
+            "entertainment"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Wireless Gaming Mouse",
+        "description": "High-precision gaming mouse with RGB lighting and programmable buttons.",
+        "price": 79.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 567,
+        "inStock": true,
+        "tags": [
+            "gaming",
+            "mouse",
+            "wireless",
+            "rgb"
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Mechanical Gaming Keyboard",
+        "description": "Full-size mechanical keyboard with Cherry MX switches and customizable RGB backlighting.",
+        "price": 149.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=400&fit=crop",
+        "rating": 4.7,
+        "reviewCount": 789,
+        "inStock": true,
+        "tags": [
+            "gaming",
+            "keyboard",
+            "mechanical",
+            "rgb"
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Bluetooth Speaker",
+        "description": "Portable waterproof Bluetooth speaker with 360-degree sound and 20-hour battery life.",
+        "price": 89.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "speaker",
+            "bluetooth",
+            "portable",
+            "waterproof"
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Digital Camera",
+        "description": "Mirrorless digital camera with 24.1MP sensor and 4K video recording capability.",
+        "price": 799.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=400&fit=crop",
+        "rating": 4.8,
+        "reviewCount": 456,
+        "inStock": false,
+        "tags": [
+            "camera",
+            "photography",
+            "4k",
+            "mirrorless"
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Wireless Earbuds",
+        "description": "True wireless earbuds with active noise cancellation and 30-hour total battery life.",
+        "price": 199.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 2341,
+        "inStock": true,
+        "tags": [
+            "earbuds",
+            "wireless",
+            "noise-cancelling",
+            "audio"
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Gaming Monitor",
+        "description": "27-inch gaming monitor with 165Hz refresh rate and 1ms response time.",
+        "price": 299.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 892,
+        "inStock": true,
+        "tags": [
+            "monitor",
+            "gaming",
+            "high-refresh",
+            "display"
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Smartphone",
+        "description": "Latest smartphone with 6.7-inch OLED display, triple camera system, and 5G capability.",
+        "price": 999.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+        "rating": 4.7,
+        "reviewCount": 5678,
+        "inStock": true,
+        "tags": [
+            "smartphone",
+            "5g",
+            "camera",
+            "mobile"
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Laptop",
+        "description": "15.6-inch laptop with Intel i7 processor, 16GB RAM, and 512GB SSD storage.",
+        "price": 1299.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 3456,
+        "inStock": false,
+        "tags": [
+            "laptop",
+            "computer",
+            "intel",
+            "ssd"
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Tablet",
+        "description": "10.9-inch tablet with Apple M1 chip, 256GB storage, and all-day battery life.",
+        "price": 649.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=400&fit=crop",
+        "rating": 4.8,
+        "reviewCount": 2341,
+        "inStock": false,
+        "tags": [
+            "tablet",
+            "apple",
+            "m1",
+            "portable"
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Wireless Charger",
+        "description": "15W fast wireless charging pad compatible with all Qi-enabled devices.",
+        "price": 39.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1601972599720-36938d4ecd31?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "wireless",
+            "charger",
+            "qi",
+            "fast-charging"
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Smart Home Hub",
+        "description": "Central hub for controlling all your smart home devices with voice commands.",
+        "price": 199.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 789,
+        "inStock": true,
+        "tags": [
+            "smart-home",
+            "hub",
+            "voice-control",
+            "automation"
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Fitness Tracker",
+        "description": "Water-resistant fitness tracker with heart rate monitoring and sleep tracking.",
+        "price": 79.99,
+        "category": "Wearables",
+        "imageUrl": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 2341,
+        "inStock": true,
+        "tags": [
+            "fitness",
+            "tracker",
+            "health",
+            "monitoring"
+        ]
+    },
+    {
+        "id": "17",
+        "name": "Smart Ring",
+        "description": "Discrete smart ring with NFC payments and activity tracking capabilities.",
+        "price": 299.99,
+        "category": "Wearables",
+        "imageUrl": "https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 456,
+        "inStock": false,
+        "tags": [
+            "smart-ring",
+            "nfc",
+            "payment",
+            "discrete"
+        ]
+    },
+    {
+        "id": "18",
+        "name": "VR Headset",
+        "description": "Virtual reality headset with 4K displays and room-scale tracking.",
+        "price": 499.99,
+        "category": "Electronics",
+        "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 892,
+        "inStock": false,
+        "tags": [
+            "vr",
+            "virtual-reality",
+            "gaming",
+            "immersive"
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Coffee Maker",
+        "description": "Programmable coffee maker with built-in grinder and thermal carafe.",
+        "price": 149.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 1234,
+        "inStock": false,
+        "tags": [
+            "coffee",
+            "maker",
+            "programmable",
+            "grinder"
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Blender",
+        "description": "High-speed blender with 1000W motor and 6-cup capacity for smoothies and soups.",
+        "price": 89.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 2341,
+        "inStock": true,
+        "tags": [
+            "blender",
+            "smoothie",
+            "kitchen",
+            "high-speed"
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Air Fryer",
+        "description": "Digital air fryer with 5.8L capacity and 8 cooking presets for healthy meals.",
+        "price": 119.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.7,
+        "reviewCount": 3456,
+        "inStock": true,
+        "tags": [
+            "air-fryer",
+            "healthy",
+            "cooking",
+            "digital"
+        ]
+    },
+    {
+        "id": "22",
+        "name": "Microwave",
+        "description": "Countertop microwave with sensor cooking and 1.2 cubic feet capacity.",
+        "price": 129.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 2341,
+        "inStock": true,
+        "tags": [
+            "microwave",
+            "sensor",
+            "countertop",
+            "cooking"
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Toaster",
+        "description": "4-slice toaster with bagel setting and digital display for perfect toast every time.",
+        "price": 69.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "toaster",
+            "4-slice",
+            "bagel",
+            "digital"
+        ]
+    },
+    {
+        "id": "24",
+        "name": "Food Processor",
+        "description": "12-cup food processor with multiple attachments for chopping, slicing, and shredding.",
+        "price": 159.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 892,
+        "inStock": true,
+        "tags": [
+            "food-processor",
+            "chopping",
+            "slicing",
+            "kitchen"
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Stand Mixer",
+        "description": "Professional stand mixer with 5-quart bowl and 10-speed motor for baking.",
+        "price": 399.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.8,
+        "reviewCount": 567,
+        "inStock": true,
+        "tags": [
+            "stand-mixer",
+            "baking",
+            "professional",
+            "kitchen"
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Rice Cooker",
+        "description": "Fuzzy logic rice cooker with 10-cup capacity and multiple cooking modes.",
+        "price": 79.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "rice-cooker",
+            "fuzzy-logic",
+            "cooking",
+            "automatic"
+        ]
+    },
+    {
+        "id": "27",
+        "name": "Slow Cooker",
+        "description": "6-quart slow cooker with programmable timer and keep-warm function.",
+        "price": 59.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 2341,
+        "inStock": true,
+        "tags": [
+            "slow-cooker",
+            "programmable",
+            "cooking",
+            "timer"
+        ]
+    },
+    {
+        "id": "28",
+        "name": "Electric Kettle",
+        "description": "Stainless steel electric kettle with temperature control and keep-warm function.",
+        "price": 49.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "electric-kettle",
+            "temperature-control",
+            "stainless-steel"
+        ]
+    },
+    {
+        "id": "29",
+        "name": "Waffle Maker",
+        "description": "Belgian waffle maker with non-stick coating and adjustable browning control.",
+        "price": 39.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 892,
+        "inStock": true,
+        "tags": [
+            "waffle-maker",
+            "belgian",
+            "non-stick",
+            "breakfast"
+        ]
+    },
+    {
+        "id": "30",
+        "name": "Pressure Cooker",
+        "description": "8-quart electric pressure cooker with 13 cooking functions and safety features.",
+        "price": 129.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 567,
+        "inStock": true,
+        "tags": [
+            "pressure-cooker",
+            "electric",
+            "cooking",
+            "safety"
+        ]
+    },
+    {
+        "id": "31",
+        "name": "Juicer",
+        "description": "Cold press juicer with slow extraction technology for maximum nutrition retention.",
+        "price": 299.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=400&h=400&fit=crop",
+        "rating": 4.7,
+        "reviewCount": 456,
+        "inStock": true,
+        "tags": [
+            "juicer",
+            "cold-press",
+            "nutrition",
+            "healthy"
+        ]
+    },
+    {
+        "id": "32",
+        "name": "Bread Maker",
+        "description": "Automatic bread maker with 12 pre-programmed settings and delay timer.",
+        "price": 89.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 789,
+        "inStock": true,
+        "tags": [
+            "bread-maker",
+            "automatic",
+            "baking",
+            "timer"
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Ice Cream Maker",
+        "description": "2-quart ice cream maker with built-in compressor for continuous freezing.",
+        "price": 199.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 234,
+        "inStock": true,
+        "tags": [
+            "ice-cream-maker",
+            "frozen-dessert",
+            "compressor",
+            "dessert"
+        ]
+    },
+    {
+        "id": "34",
+        "name": "Dehydrator",
+        "description": "Food dehydrator with 6 trays and adjustable temperature control for drying fruits and vegetables.",
+        "price": 79.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 567,
+        "inStock": true,
+        "tags": [
+            "dehydrator",
+            "food-drying",
+            "healthy",
+            "preservation"
+        ]
+    },
+    {
+        "id": "35",
+        "name": "Sous Vide Cooker",
+        "description": "Immersion circulator for precise temperature cooking with smartphone app control.",
+        "price": 149.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.6,
+        "reviewCount": 345,
+        "inStock": true,
+        "tags": [
+            "sous-vide",
+            "precision-cooking",
+            "temperature-control",
+            "smart"
+        ]
+    },
+    {
+        "id": "36",
+        "name": "Pasta Maker",
+        "description": "Electric pasta maker with 7 different pasta shape attachments and dough mixing.",
+        "price": 179.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 234,
+        "inStock": true,
+        "tags": [
+            "pasta-maker",
+            "electric",
+            "fresh-pasta",
+            "italian"
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Yogurt Maker",
+        "description": "Automatic yogurt maker with 7 individual cups and temperature control.",
+        "price": 39.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 456,
+        "inStock": true,
+        "tags": [
+            "yogurt-maker",
+            "fermentation",
+            "healthy",
+            "probiotic"
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Popcorn Maker",
+        "description": "Hot air popcorn maker with 8-cup capacity and butter melting tray.",
+        "price": 29.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.1,
+        "reviewCount": 789,
+        "inStock": true,
+        "tags": [
+            "popcorn-maker",
+            "hot-air",
+            "snack",
+            "healthy"
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Electric Griddle",
+        "description": "Large electric griddle with non-stick surface and adjustable temperature control.",
+        "price": 69.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 567,
+        "inStock": true,
+        "tags": [
+            "electric-griddle",
+            "non-stick",
+            "breakfast",
+            "cooking"
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Electric Can Opener",
+        "description": "Automatic electric can opener with smooth operation and safety features.",
+        "price": 19.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.0,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "can-opener",
+            "electric",
+            "automatic",
+            "kitchen"
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Electric Knife Sharpener",
+        "description": "3-stage electric knife sharpener with diamond abrasives for professional results.",
+        "price": 49.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.5,
+        "reviewCount": 345,
+        "inStock": true,
+        "tags": [
+            "knife-sharpener",
+            "electric",
+            "diamond",
+            "professional"
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Electric Pepper Grinder",
+        "description": "Automatic electric pepper grinder with adjustable coarseness and LED light.",
+        "price": 34.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 678,
+        "inStock": true,
+        "tags": [
+            "pepper-grinder",
+            "electric",
+            "automatic",
+            "seasoning"
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Electric Salt Shaker",
+        "description": "Battery-operated salt shaker with adjustable flow and moisture-resistant design.",
+        "price": 24.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.1,
+        "reviewCount": 456,
+        "inStock": true,
+        "tags": [
+            "salt-shaker",
+            "electric",
+            "adjustable",
+            "seasoning"
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Electric Wine Opener",
+        "description": "Automatic electric wine opener with foil cutter and rechargeable battery.",
+        "price": 39.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 234,
+        "inStock": true,
+        "tags": [
+            "wine-opener",
+            "electric",
+            "automatic",
+            "rechargeable"
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Electric Herb Grinder",
+        "description": "Automatic herb grinder with stainless steel blades and safety lock mechanism.",
+        "price": 29.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.4,
+        "reviewCount": 567,
+        "inStock": true,
+        "tags": [
+            "herb-grinder",
+            "electric",
+            "stainless-steel",
+            "cooking"
+        ]
+    },
+    {
+        "id": "46",
+        "name": "Electric Garlic Press",
+        "description": "Automatic garlic press with cleaning brush and non-stick coating.",
+        "price": 19.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.0,
+        "reviewCount": 789,
+        "inStock": true,
+        "tags": [
+            "garlic-press",
+            "electric",
+            "automatic",
+            "cooking"
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Electric Citrus Juicer",
+        "description": "Automatic citrus juicer with pulp control and easy-clean design.",
+        "price": 44.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 345,
+        "inStock": true,
+        "tags": [
+            "citrus-juicer",
+            "electric",
+            "pulp-control",
+            "juicing"
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Electric Egg Cooker",
+        "description": "Automatic egg cooker with 7-egg capacity and multiple cooking modes.",
+        "price": 24.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.1,
+        "reviewCount": 1234,
+        "inStock": true,
+        "tags": [
+            "egg-cooker",
+            "electric",
+            "automatic",
+            "breakfast"
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Electric Fondue Pot",
+        "description": "Electric fondue pot with temperature control and 6 forks included.",
+        "price": 59.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.3,
+        "reviewCount": 234,
+        "inStock": true,
+        "tags": [
+            "fondue-pot",
+            "electric",
+            "temperature-control",
+            "entertaining"
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Electric Hot Plate",
+        "description": "Portable electric hot plate with adjustable temperature and non-stick surface.",
+        "price": 34.99,
+        "category": "Home Appliances",
+        "imageUrl": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "rating": 4.2,
+        "reviewCount": 456,
+        "inStock": true,
+        "tags": [
+            "hot-plate",
+            "electric",
+            "portable",
+            "cooking"
+        ]
+    }
+]
