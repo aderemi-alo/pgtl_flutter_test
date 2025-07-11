@@ -71,3 +71,6 @@ These files demonstrate secure authentication service implementation and usage e
 ### Demo Credentials
 - **Email**: `test@example.com`
 - **Password**: `Password123!`
+
+### UI Testing
+The URL for viewing the UI implementations is https://appetize.io/app/b_chz3hjttgi2g6vt4fjoyjg6sam
