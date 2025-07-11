@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Overlay widget that displays a loading indicator over child content
+/// Provides a semi-transparent overlay with customizable loading message
 class LoadingOverlay extends StatelessWidget {
   final Widget child;
   final bool isLoading;
@@ -16,7 +18,9 @@ class LoadingOverlay extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
+        // Main content widget
         child,
+        // Loading overlay with semi-transparent background
         if (isLoading)
           Container(
             color: Colors.black54,
@@ -29,6 +33,7 @@ class LoadingOverlay extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       const CircularProgressIndicator(),
+                      // Optional loading message
                       if (message != null) ...[
                         const SizedBox(height: 16),
                         Text(

@@ -4,6 +4,8 @@ import 'package:pgtl_flutter_test/core/core.dart';
 import '../providers/products_provider.dart';
 import '../../domain/models/product.dart';
 
+/// Products screen that displays a grid of products with search and filtering
+/// Features responsive grid layout and real-time search functionality
 class ProductsScreen extends ConsumerWidget {
   const ProductsScreen({super.key});
 
@@ -22,7 +24,7 @@ class ProductsScreen extends ConsumerWidget {
               Expanded(
                 child: productsAsync.when(
                   data: (products) {
-                    // Apply filter and search
+                    // Apply filter and search with case-insensitive matching
                     final filtered =
                         products.where((p) {
                           final matchesQuery =
@@ -36,7 +38,7 @@ class ProductsScreen extends ConsumerWidget {
                               p.category == filter.category;
                           return matchesQuery && matchesCategory;
                         }).toList();
-                    // Sort
+                    // Sort products alphabetically by name
                     filtered.sort((a, b) => a.name.compareTo(b.name));
                     return _ProductsGrid(products: filtered);
                   },
@@ -55,6 +57,7 @@ class ProductsScreen extends ConsumerWidget {
   }
 }
 
+/// Search and filter bar component with real-time search and category filtering
 class _SearchAndFilterBar extends ConsumerStatefulWidget {
   final ProductsFilterState filter;
   const _SearchAndFilterBar({required this.filter});
@@ -86,6 +89,7 @@ class _SearchAndFilterBarState extends ConsumerState<_SearchAndFilterBar> {
       padding: const EdgeInsets.all(8.0),
       child: Row(
         children: [
+          // Search input field with real-time filtering
           Expanded(
             child: TextField(
               controller: _searchController,
@@ -106,6 +110,7 @@ class _SearchAndFilterBarState extends ConsumerState<_SearchAndFilterBar> {
             ),
           ),
           const SizedBox(width: 16),
+          // Category filter dropdown with loading state
           FutureBuilder<List<String>>(
             future: repo.getCategories(),
             builder: (context, snapshot) {
@@ -142,7 +147,7 @@ class _SearchAndFilterBarState extends ConsumerState<_SearchAndFilterBar> {
 
               final categories = snapshot.data ?? [];
 
-              // Check if the current category value exists in the available categories
+              // Validate current category against available categories
               final currentCategory = widget.filter.category;
               final isValidCategory =
                   currentCategory == null ||
@@ -176,12 +181,15 @@ class _SearchAndFilterBarState extends ConsumerState<_SearchAndFilterBar> {
   }
 }
 
+/// Responsive grid layout for displaying products
+/// Adapts column count based on screen width
 class _ProductsGrid extends StatelessWidget {
   final List<Product> products;
   const _ProductsGrid({required this.products});
 
   @override
   Widget build(BuildContext context) {
+    // Use 4 columns on large screens, 2 on smaller screens
     final crossAxisCount = MediaQuery.of(context).size.width > 600 ? 4 : 2;
     return GridView.builder(
       padding: const EdgeInsets.all(8),
@@ -200,6 +208,7 @@ class _ProductsGrid extends StatelessWidget {
   }
 }
 
+/// Individual product card widget with image, details, and stock status
 class _ProductCard extends StatelessWidget {
   final Product product;
   const _ProductCard({required this.product});
@@ -211,6 +220,7 @@ class _ProductCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+          // Product image with error handling
           Expanded(
             child: Image.network(
               product.imageUrl,
@@ -220,6 +230,7 @@ class _ProductCard extends StatelessWidget {
                       const Icon(Icons.broken_image),
             ),
           ),
+          // Product details section
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(
@@ -241,12 +252,14 @@ class _ProductCard extends StatelessWidget {
                     context,
                   ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.bold),
                 ),
+                // Rating display with star icon
                 Row(
                   children: [
                     const Icon(Icons.star, color: Colors.amber, size: 16),
                     Text('${product.rating} (${product.reviewCount})'),
                   ],
                 ),
+                // Stock status indicator
                 if (!product.inStock)
                   const Text(
                     'Out of stock',

@@ -8,6 +8,8 @@ import 'package:pgtl_flutter_test/features/shared/widgets/loading_overlay.dart';
 import 'package:pgtl_flutter_test/features/auth/presentation/providers/auth_provider.dart';
 import 'package:pgtl_flutter_test/features/auth/presentation/widgets/password_field.dart';
 
+/// Login screen that handles user authentication
+/// Features real-time form validation and security feedback
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});
 
@@ -31,6 +33,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     super.dispose();
   }
 
+  /// Validates form fields in real-time and updates UI state
   void _validateForm() {
     final email = _emailController.text;
     final password = _passwordController.text;
@@ -47,7 +50,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   Widget build(BuildContext context) {
     final loginState = ref.watch(loginStateProvider);
 
-    // Listen to state changes
+    // Listen to state changes for error handling and navigation
     ref.listen<LoginState>(loginStateProvider, (previous, next) {
       if (next.error != null && next.error != previous?.error) {
         _showErrorDialog(next.error!);
@@ -74,6 +77,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     );
   }
 
+  /// Builds the main login form with all UI components
   Widget _buildLoginForm(LoginState loginState) {
     return Form(
       key: _formKey,
@@ -98,6 +102,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     );
   }
 
+  /// Builds the header section with app branding
   Widget _buildHeader() {
     return Column(
       children: [
@@ -122,6 +127,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     );
   }
 
+  /// Builds form input fields with validation
   Widget _buildFormFields(LoginState loginState) {
     return Column(
       children: [
@@ -151,6 +157,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     );
   }
 
+  /// Builds the login button with dynamic styling based on form state
   Widget _buildLoginButton(LoginState loginState) {
     final isEnabled = _formValid && !loginState.isLoading;
     return Padding(
@@ -173,6 +180,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     );
   }
 
+  /// Handles login form submission with validation
   void _handleLogin() {
     if (_formKey.currentState?.validate() ?? false) {
       final email = _emailController.text.trim();
@@ -183,6 +191,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     }
   }
 
+  /// Shows error dialog with lockout countdown if applicable
   void _showErrorDialog(String error) {
     final loginState = ref.read(loginStateProvider);
     final lockoutUntil = loginState.lockoutUntil;
@@ -223,6 +232,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     );
   }
 
+  /// Handles successful login by navigating to products screen
   void _showSuccessDialog() {
     // Navigate to products screen after successful login
     context.go('/products');
@@ -230,6 +240,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   }
 }
 
+/// Countdown timer widget for displaying lockout remaining time
 class _CountdownTimer extends StatefulWidget {
   final DateTime lockoutUntil;
 
