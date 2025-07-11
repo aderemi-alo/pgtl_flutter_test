@@ -1,6 +1,6 @@
 # PGTL Flutter Test
 
-A secure and aesthetic login screen built with Flutter, following best practices for state management, form validation, and security.
+The three taks required for the PGTL test can be found in this repo
 
 ## Project Structure
 
